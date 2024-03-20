@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: whitesmoke;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.header {
+  background-color: chocolate;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
+
+.next-year {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+
+.counter {
+  display: flex;
+  /* justify-content: space-around */
+  justify-content: space-evenly;
+  background-color: chocolate;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 3rem;
+  font-weight: bold;
+}
